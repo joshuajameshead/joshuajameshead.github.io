@@ -261,7 +261,7 @@ header.masthead p {
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .portfolio-box:hover .portfolio-box-caption {
@@ -277,7 +277,18 @@ header.masthead p {
     font-size: 16px;
   }
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-    font-size: 22px;
+    font-size: 14px;
+  }
+
+#quote-pic {
+  display: flex;
+}
+
+}
+
+@media (max-width: 767px) {
+  #quote-pic {
+    display: none;
   }
 }
 
@@ -309,4 +320,21 @@ header.masthead p {
 
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+}
+
+#portfolio-heading {
+  padding-top: 8rem;
+}
+
+footer {
+  padding: 0.25rem 0;
+  font-size: 0.8em;
+}
+
+.fa {
+  padding: 0.75rem 0;
+}
+
+#quote {
+  padding: 4rem 0;
 }
