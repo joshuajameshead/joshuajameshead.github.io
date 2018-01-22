@@ -292,6 +292,12 @@ header.masthead p {
   }
 }
 
+@media (min-width: 576px) {
+  #mobile-only {
+    display: none;
+  }
+}
+
 .text-primary {
   color: #F05F40 !important;
 }
